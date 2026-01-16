@@ -166,7 +166,7 @@ let main argv =
         students
         |> List.filter (fun s -> s.Grade >= 4.0)
 
-    // Zwiększenie każdemu uczniowi wiek o 1 rok
+    // Zwiększenie każdemu uczniowi wieku o 1 rok
     let starsiStudenci =
         students
         |> List.map (fun s -> { s with Age = s.Age + 1 })
@@ -361,7 +361,7 @@ quicksortIter data2
 printfn "QuickSort iteracyjny:"
 printfn "%A" data2
 
-// zadania z pliku LAB8, który znajdował się raz z plikiem LAB5
+// zadania z pliku LAB8, który znajdował się razem z plikiem LAB5
 // Zgodnie z treścią zadania trzeba było wykonać program z menu, które wybiera daną funkcję do wykonania.
 
 // ==========================================
@@ -712,7 +712,7 @@ let main argv =
     printf "Podaj słowo do wyszukania: "
     let szukane = Console.ReadLine()
 
-    // Pobranie słowa zamiennika
+    // Pobranie nowe słowo
     printf "Podaj słowo na jakie chcesz zamienić: "
     let zamiennik = Console.ReadLine()
 
@@ -725,7 +725,7 @@ let main argv =
 
     0
 
-// zadania z pliku LAB7, który był znajdował sie w folderze LAB6
+// zadania z pliku LAB7, który znajdował sie w folderze LAB6
 
 //zad.1 - System do zarządzania biblioteką
 
